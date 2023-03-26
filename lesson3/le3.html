@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khôi Nguyên</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="le3.css">
+</head>
+
+<body>
+
+    <div id="login">
+        <h1>Đăng nhập</h1>
+        <div>
+            <h5>User</h5>
+            <input id="li_user" type="text">
+        </div>
+        <div>
+            <h5>Password</h5>
+            <input id="li_pass" type="text">
+        </div>
+        <button onclick="handleLogIn()">Đăng nhập</button>
+    </div>
+    <div id="signup">
+        <h1>Đăng ký</h1>
+        <div>
+            <h5>User</h5>
+            <input id="su_user" type="text">
+        </div>
+        <div>
+            <h5>Password</h5>
+            <input id="su_pass" type="text">
+        </div>
+        <div>
+            <h5>Repeat Password</h5>
+            <input id="su_rppass" type="text">
+        </div>
+        <button onclick="handleSignUp()">Đăng ký</button>
+    </div>
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="hw.html">Home</a></li>
+                    <li><a href="hw.html">Menu</a></li>
+                    <li><a href="hw.html">Contact</a></li>
+                    <li><a href="hw.html">About</a></li>
+                </ul>
+                <ul>
+                    <li><span class="material-symbols-outlined" onclick="showLogin()">login</span></li>
+                    <li><span class="material-symbols-outlined" onclick="showSignup()">app_registration</span></li>
+                </ul>
+            </nav>
+            <div class="bannerbox">
+                <div class="banner">
+                    <img class="picture"
+                        src="https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_79603-603.jpg?w=2000"
+                        alt="">
+                    <img class="picture"
+                        src="https://png.pngtree.com/background/20211215/original/pngtree-real-shots-of-coffee-beverages-combined-with-coffee-related-line-drafts-picture-image_1452488.jpg"
+                        alt="">
+                    <img class="picture" src="https://wallpaperaccess.com/full/1076736.jpg" alt="">
+                </div>
+            </div>
+            <h2> Coffee</h2>
+
+            <div class="menu_coffee">
+                <div class="drink_box">
+                    <img class="drink_img" src="https://kfehouse.vn/wp-content/uploads/2020/12/Ca-phe-sua.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img"
+                        src="https://pizzabap.vn/datafiles/34943/upload/images/product/caphe%20da.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://kfehouse.vn/wp-content/uploads/2020/12/Ca-phe-sua.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img"
+                        src="https://pizzabap.vn/datafiles/34943/upload/images/product/caphe%20da.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://kfehouse.vn/wp-content/uploads/2020/12/Ca-phe-sua.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img"
+                        src="https://pizzabap.vn/datafiles/34943/upload/images/product/caphe%20da.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://kfehouse.vn/wp-content/uploads/2020/12/Ca-phe-sua.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img"
+                        src="https://pizzabap.vn/datafiles/34943/upload/images/product/caphe%20da.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://kfehouse.vn/wp-content/uploads/2020/12/Ca-phe-sua.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img"
+                        src="https://pizzabap.vn/datafiles/34943/upload/images/product/caphe%20da.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+
+            </div>
+            <br>
+
+
+
+
+
+            <h4> Freze</h4>
+
+            <div class="menu_freze">
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/mccafe/icedchoco.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mangoice.vn/upload/attachment/thumb/9187sp06-1.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/food/desserts/oreo_mcflurrt.png"
+                        alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/mccafe/icedchoco.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mangoice.vn/upload/attachment/thumb/9187sp06-1.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/food/desserts/oreo_mcflurrt.png"
+                        alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/mccafe/icedchoco.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mangoice.vn/upload/attachment/thumb/9187sp06-1.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/food/desserts/oreo_mcflurrt.png"
+                        alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://mcdonalds.vn/uploads/2018/mccafe/icedchoco.png" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Cà Phê Sữa</p>
+                        <p class="price">20.000đ</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+            </div>
+            <br>
+
+
+
+
+            <h3> Chrismas Offers</h3>
+
+            <div class="menu_ChrismasOffers">
+                <div class="drink_box">
+                    <img class="drink_img"
+                        src="https://img.meta.com.vn/Data/image/2020/12/05/banh-quy-gung-giang-sinh-11.jpg" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Bill có tổng giá trị trên 50k nhận một món quà lưu niệm</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+                <div class="drink_box">
+                    <img class="drink_img" src="https://cdn.tgdd.vn/2020/11/CookProduct/thumbuadasdas-1200x676.jpg"
+                        alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Bill có tổng giá trị trên 100k nhận một món quà lưu niệm</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+
+                <div class="drink_box">
+                    <img class="drink_img" src="https://azevent.vn/wp-content/uploads/2019/01/monquanoel.jpg" alt="">
+                    <div class="infor_drinks">
+                        <p class="drink_name">Bill có tổng giá trị trên 200k nhận một món quà lưu niệm</p>
+                    </div>
+                    <button class="btn_buy" onclick="showMessage()"> Đặt đồ</button>
+                </div>
+            </div>
+            <footer>
+                <div class="infor_ft">
+                    <p class="ft_name">Khôi Nguyên Coffee</p>
+                    <p style="color: white;margin: 20px 0;">Người đại diện: Đỗ Khôi Nguyên</p>
+                    <p style="color: white;">Địa chỉ: ABC</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.988211049866!2d105.8369637!3d21.022739599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaQ!5e0!3m2!1svi!2s!4v1670486197964!5m2!1svi!2s"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </footer>
+    </div>
+
+    <script src="le3.js"></script>
+</body>
+
+</html>
