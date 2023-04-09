@@ -7,7 +7,7 @@
 body{
     background-color: var(--orange);
     font-family: system-ui;
-    overflow: hidden;
+    overflow: visible;
 }
 .container{
     width:1200px;
@@ -189,4 +189,8 @@ body{
 }
 .cart .remove{
     display: inline-block!important;
+}
+.btn_buy{
+    margin-left: 30px;
+    border-radius: 20px;
 }

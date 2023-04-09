@@ -31,3 +31,11 @@ function Remove($key){
         }
     })
 }
+function showMessage() {
+    var cf_dathang = confirm("Xác nhận đặt hàng!")
+    if (cf_dathang == true) {
+        alert("Đặt đồ thành công!")
+    } else {
+        alert("Đã hủy yêu cầu!")
+    }
+}
